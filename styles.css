@@ -1,0 +1,136 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+button {
+    position: relative;
+    top: 110px;
+    left: 10%;
+    margin: auto;
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3rem;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    font-size: 0.9rem;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2;
+    color: #ffffffbf;
+}
+.container {
+    display: flex;
+    height: 80%;
+    margin: 10% 15%;
+    flex-wrap: wrap;
+}
+/* Sedan */
+.sedan {
+    background-color: #e38826;
+    border-radius: 15px 0 0 15px;
+    height: 500px;
+    width: 330px;
+}
+ /* Sedan Image */
+.image-1 {
+    position: relative;
+    top: 50px;
+    left: 10%;
+    height: 40px;
+}
+.img-sedan{
+    margin: auto;
+}
+/* Sedan header */
+.sedan-header {
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+/* Sedan-desc */
+.sedan-desc {
+    position: relative;
+    top: 50px;
+}
+.btn {
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: #e38826;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 15px 25px 15px 25px;
+    border: solid #fafdff 2px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    cursor: pointer;
+    background: #e38826;
+    text-decoration: none;
+    color: #fafdff;
+}
+/* SUV */
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+    width: 330px;
+}
+.btn-1 {
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    background: #ffffff;
+    padding: 15px 25px 15px 25px;
+    border: solid #fafdff 2px;
+    text-decoration: none;
+  }
+  
+.btn-1:hover {
+    cursor: pointer;
+    background: hsl(184, 100%, 22%);
+    text-decoration: none;
+    color: #fafdff;
+}
+/* Luxury */
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+    height: 500px;
+    width: 330px;
+}
+.btn-2 {
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    background: #ffffff;
+    padding: 15px 25px 15px 25px;
+    border: solid #fafdff 2px;
+    text-decoration: none;
+  }
+  
+.btn-2:hover {
+    cursor: pointer;
+    background: hsl(179, 100%, 13%);
+    text-decoration: none;
+    color: #fafdff;
+}
+@media (max-width:1456px) {
+    .sedan {
+        border-radius: 15px 15px 0 0;
+    }
+    .luxury {
+        border-radius: 0 0 15px 15px;
+    }
+}
